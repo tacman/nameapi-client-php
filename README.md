@@ -5,14 +5,13 @@ PHP Client for the NameAPI Web Service at http://www.nameapi.org/
 
 All you need to send requests is your own api key, get it from nameapi.org.
 
+This library is simply a fork of https://github.com/mobilelocker/nameapi-client-php, which is a fork of the original library, but the original library does not support PSR-4 namespaced, which composer 2 requires.
+
 ## Library setup
 
-The recommended way is to use Composer. The project at https://github.com/optimaize/nameapi-client-php-example-composer
-shows how that's done.
-
-You can download the source code and make it available to your code. Or you can check it out directly from this GitHub project. Currently there is no phar available.
-
-The only requirement is that the php_curl extension is enabled.
+```bash
+composer require tacman/nameapi-client-php
+```
 
 ## Functional tests
 
